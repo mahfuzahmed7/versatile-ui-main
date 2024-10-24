@@ -1,6 +1,8 @@
 /* google font */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&display=swap');
+
 body {
     font-family: "Inter", sans-serif;
     background: rgb(0, 0, 0);
@@ -17,19 +19,23 @@ body {
     border-radius: 1rem;
 }
 
+.btn-primary {
+    width: 224px;
+    height: 54px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+}
 
 .coral-red {
     color: rgb(230, 83, 60);
-}
 
+}
 
 /* navbar section styles */
 .nav-container {
     color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
-    border: 2px solid red;
-
 }
 
 .nav-container h3 {
@@ -37,7 +43,6 @@ body {
     font-size: 2.25rem;
     font-weight: 800;
     font-style: italic;
-
 }
 
 .nav-option {
@@ -46,7 +51,6 @@ body {
     align-items: center;
     text-align: center;
     font-size: 1.125rem;
-
 }
 
 .special {
@@ -61,4 +65,108 @@ body {
 
 .hem-burger {
     display: none;
+}
+
+/* banner section styles */
+.banner-container {
+    color: rgb(255, 255, 255);
+    display: flex;
+
+}
+
+.banner-section {
+    width: 50%;
+}
+
+.banner-section h1 {
+    font-size: 4.875rem;
+    font-weight: 900;
+}
+
+.banner-section p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0.5px;
+    text-align: left;
+}
+
+.special-word {
+    font-family: "Ballet", cursive;
+
+}
+
+.btn-black {
+    border: 1px solid rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.card-section {
+    width: 50%;
+    background-image: url(../images/Images-2.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: auto 100%;
+}
+
+.card1 {
+    width: 193px;
+    height: 98px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 0.75 rem;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    margin: 74px 74px 0 350px;
+
+}
+
+.card1 h3 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.card1 p {
+    font-size: 0.8125 rem;
+    opacity: 0.65;
+    text-align: center;
+}
+
+.fa-play {
+    margin-left: 35px;
+}
+
+.card2 {
+    width: 206px;
+    height: 96px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 0.75 rem;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.card2 i {
+    font-size: 2.5rem;
+    position: absolute;
+    top: 25px;
+    margin-left: 5px;
+    color: rgb(230, 83, 60);
+}
+
+.card2 h3 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.card2 p {
+    font-size: 0.8125 rem;
+    opacity: 0.65;
+    text-align: center;
 }
