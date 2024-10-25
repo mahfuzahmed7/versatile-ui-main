@@ -17,13 +17,17 @@ body {
     width: 80%;
     margin: 5rem auto;
     border-radius: 1rem;
+    color: rgb(255, 255, 255);
 }
 
 .btn-primary {
     width: 224px;
     height: 54px;
+    font-size: 1.125rem;
+    font-weight: 600;
     border-radius: 42px;
     background: rgb(230, 83, 60);
+    border: 1px solid rgb(230, 83, 60);
 }
 
 .coral-red {
@@ -31,9 +35,18 @@ body {
 
 }
 
+h3 {
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+p {
+    font-size: 0.875rem;
+    opacity: 0.5;
+}
+
 /* navbar section styles */
 .nav-container {
-    color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
 }
@@ -69,7 +82,6 @@ body {
 
 /* banner section styles */
 .banner-container {
-    color: rgb(255, 255, 255);
     display: flex;
 
 }
@@ -173,7 +185,6 @@ body {
 
 /* change-your-habit section */
 .change-your-habit-container {
-    color: rgb(255, 255, 255);
     height: 100%;
 
 }
@@ -217,4 +228,41 @@ body {
     font-size: 0.875rem;
     opacity: 0.5;
     margin-top: 5px;
+}
+
+/* run an extra section styles */
+.run-an-extra-container {
+    display: flex;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+}
+
+.run-an-extra-section {
+    margin-left: 54px;
+    margin-top: 41px;
+}
+
+.run-an-extra-section p {
+    margin-top: 10px;
+    margin-bottom: 34px;
+}
+
+.btn-primary {
+    margin-bottom: 40px;
+    color: rgb(255, 255, 255);
+}
+
+.run-an-extra-img img {
+    width: 60%;
+    height: 90%;
+
+}
+
+.run-an-extra-img {
+    display: flex;
+    justify-content: right;
+    margin-top: 35px;
+    margin-right: 35px;
+
+
 }
